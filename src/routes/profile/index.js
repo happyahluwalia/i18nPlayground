@@ -30,11 +30,6 @@ export default class Profile extends Component {
 
 	// Note: `user` comes from the URL, courtesy of our router
 	render({ user }, { time, count }) {
-	/* 	i18n.loadI18n('es', function(texts) {
-			console.log(texts);
-		}); */
-		
-		//console.log(texts.default);
 		return (
 			<div class={style.profile}>
 				<h1>{this.state.texts.default.profile} {user}</h1>
